@@ -1,0 +1,10 @@
+{
+  "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
+  "auto-pairs": { "branch": "master", "commit": "39f06b873a8449af8ff6a3eee716d3da14d63a76" },
+  "everforest": { "branch": "master", "commit": "44c2659ffb6d26a994346974b4d12e988f43e5e5" },
+  "lazy.nvim": { "branch": "main", "commit": "56ead98e05bb37a4ec28930a54d836d033cf00f2" },
+  "nerdtree": { "branch": "master", "commit": "9b465acb2745beb988eff3c1e4aa75f349738230" },
+  "vim-airline": { "branch": "master", "commit": "25635ab50474e5ead1cea4f05ec16683438efc17" },
+  "vim-airline-themes": { "branch": "master", "commit": "a9aa25ce323b2dd04a52706f4d1b044f4feb7617" },
+  "vim-polyglot": { "branch": "master", "commit": "692e359ad9344d6e69626131f5c96743560e4d53" }
+}
