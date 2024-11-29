@@ -39,7 +39,7 @@ require("lazy").setup({
   },
   
   -- Syntax Highlighting
-  'sheerun/vim-polyglot',
+  -- 'sheerun/vim-polyglot',
   
   -- Airline
   {
@@ -58,6 +58,15 @@ require("lazy").setup({
     'L3MON4D3/LuaSnip', 
     version = 'v2.*',
     build = 'make install_jsregexp'
+  },
+
+  -- Treesitter
+  {
+    'nvim-treesitter/nvim-treesitter',
+	opts = {
+		highlight = { enable = true },
+		indent = { enable = true },
+	}
   }
 })
 
