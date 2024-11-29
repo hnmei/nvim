@@ -15,9 +15,6 @@ return{
 		end
 	  },
 	  
-	  -- Syntax Highlighting
-	  -- 'sheerun/vim-polyglot',
-	  
 	  -- Airline
 	  {
 		'vim-airline/vim-airline',
@@ -28,13 +25,6 @@ return{
 		  vim.g.airline_powerline_fonts = 1
 		  vim.g['airline#extensions#tabline#enabled'] = 1
 		end
-	  },
-	  
-	  -- LuaSnip
-	  {
-		'L3MON4D3/LuaSnip', 
-		version = 'v2.*',
-		build = 'make install_jsregexp'
 	  },
 	}
 }
