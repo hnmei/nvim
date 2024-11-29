@@ -1,0 +1,5 @@
+return {
+	{
+		highlight = true,
+	}
+}
