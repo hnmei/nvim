@@ -72,6 +72,7 @@ return {
                 sources = cmp.config.sources({
                     { name = 'luasnip' },
                     { name = 'buffer'},
+					{ name = 'path' }
                 }),
             })
             cmp.setup.cmdline({ '/', '?' }, {
@@ -94,8 +95,18 @@ return {
 				    { name = 'vimtex'},
                     { name = 'luasnip' },
                     { name = 'buffer'},
-                },
+				},
             })
+			cmp.setup.filetype("python", {
+				sources = {
+					{ name = 'luasnip' },
+					{ name = 'buffer' },
+					{ name = 'nvim_lsp' },
+					{ name = 'path' }
+				}
+			}
+
+			)
         end
     }
 }
