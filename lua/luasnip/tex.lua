@@ -1,5 +1,5 @@
 return{
-	s({";a",},
+	s({ trig = ";a",},
 		{t("\\alpha"),}
 	)
 }
