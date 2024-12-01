@@ -89,7 +89,7 @@ return {
             })
             cmp.setup.filetype("tex", {
                 sources = {
-                    { name = 'vimtex'},
+				    { name = 'vimtex'},
                     { name = 'luasnip' },
                     { name = 'buffer'},
                 },
