@@ -99,9 +99,9 @@ return {
             })
 			cmp.setup.filetype("python", {
 				sources = {
+					{ name = 'nvim_lsp' },
 					{ name = 'luasnip' },
 					{ name = 'buffer' },
-					{ name = 'nvim_lsp' },
 					{ name = 'path' }
 				}
 			}
