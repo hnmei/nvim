@@ -5,7 +5,6 @@ return {
 		-- tag = "v2.15", -- uncomment to pin to a specific release
 		init = function()
 			-- VimTeX configuration goes here, e.g.
-<<<<<<< HEAD
 			-- vim.g.vimtex_view_method = "skim"
 			local sysname = vim.loop.os_uname().sysname
 			if sysname == "Darwin" then
@@ -13,10 +12,6 @@ return {
 			elseif sysname == "Linux" and os.getenv("WSL_DISTRO_NAME") then
 				vim.g.vimtex_view_method = "zathura"
 			end
-=======
-			vim.g.vimtex_view_method = "skim"
-			vim.g.vimtex_quickfix_open_on_warning = 0  
->>>>>>> 2b85bad (Mute VimTex Warnings)
 			vim.g.vimtex_complete_bib = {
 				simple = 1,
 				menu = 1,
