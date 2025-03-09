@@ -1,4 +1,4 @@
-return{
+return {
 	s({trig="new", dscr="A generic new environmennt"},
 	fmta(
 		[[

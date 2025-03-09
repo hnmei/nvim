@@ -6,6 +6,9 @@ vim.opt.encoding = 'utf-8'
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Search Case
+vim.opt.smartcase = true
+
 -- Indent Settings
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
