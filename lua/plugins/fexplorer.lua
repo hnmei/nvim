@@ -1,6 +1,6 @@
 return{
 	{
-	  -- NERDTree
-	  'scrooloose/nerdtree',
+		-- NERDTree
+		'scrooloose/nerdtree',
 	}
 }
