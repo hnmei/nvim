@@ -22,6 +22,7 @@ return {
 			vim.g.vimtex_syntax_bib_enabled = 1
 			-- disable quickfix for warning
 			vim.g.vimtex_quickfix_open_on_warning = 0
+			vim.keymap.set("n", "<leader>c", "<Plug>(vimtex-compile)", { silent = true })
 		end
 	},
 	{

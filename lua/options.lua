@@ -1,4 +1,4 @@
--- Encoding Settings
+--Encoding Settings
 vim.opt.fileencodings = 'utf-8,ucs-bom,gbl8030,gbk,gb2312,cp936'
 vim.opt.encoding = 'utf-8'
 
