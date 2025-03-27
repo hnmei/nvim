@@ -23,6 +23,16 @@ return {
 						require('luasnip').lsp_expand(args.body)
 					end,
 				},
+				window = {
+					completion = {
+						border = 'rounded',
+						scrollbar = false,
+					},
+					documentation = {
+						border = 'rounded',
+						scrollbar = false,
+					},
+				},
 				mapping = {
 					['<CR>'] = cmp.mapping(function(fallback)
 						if cmp.visible() then
@@ -74,9 +84,16 @@ return {
 				formatting = {
 					format = lspkind.cmp_format({
 						mode = 'symbol_text',
-						maxwidth = 50,
+						maxwidth = 22,
 						ellipsis_char = '...',
 						symbol_map = { Copilot = "" },
+						menu = ({
+							buffer = "[Buffer]",
+							nvim_lsp = "[LSP]",
+							luasnip = "[LuaSnip]",
+							nvim_lua = "[Lua]",
+							latex_symbols = "[Latex]",
+						})
 					})
 				},
 				sources = cmp.config.sources({

@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 vim.keymap.set("n", "<leader>s", "<Cmd>write<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>v", "<plug>(vimtex-view)", { noremap = true, silent = true })
 
 -- Plugin Configuration
 require("lazy").setup("plugins")
