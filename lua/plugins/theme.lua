@@ -15,7 +15,7 @@ function M.config()
 			hl["@string.special.symbol.ruby"] = { link = "@field" }
 		end,
 		colours_override = function (palette)
-			palette.fg = "#678F74"
+			palette.fg = "#edd6a6"
 		end
 	})
 	everforest.load()
