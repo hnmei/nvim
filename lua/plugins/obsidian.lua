@@ -21,5 +21,8 @@ return {
 				path = vault_path,
 			},
 		},
+		ui = {
+			enable = false
+		}
 	},
 }

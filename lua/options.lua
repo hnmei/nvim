@@ -37,4 +37,3 @@ vim.opt.termguicolors = true
 
 -- Completion Settings
 vim.opt.completeopt:remove('preview')
-
