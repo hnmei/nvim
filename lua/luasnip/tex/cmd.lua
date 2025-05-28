@@ -3,7 +3,7 @@ return {
 	fmta(
 	[[
 	\begin{<>}
-	<>
+		<>
 	\end{<>}
 	]],
 	{
